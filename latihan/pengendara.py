@@ -1,6 +1,7 @@
-from pemukul import Pemukul
+from karakter import Karakter
 
-class Pemukul(Karakter):
+
+class Pengendara(Karakter):
     def __init__(self, nama: str, power: int):
         super().__init__(nama, power)
         
