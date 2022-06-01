@@ -1,4 +1,4 @@
-from latihan.karakter import Karakter
+from karakter import Karakter
 from penembak import Penembak
 
 class Pemukul(Karakter):
@@ -6,4 +6,4 @@ class Pemukul(Karakter):
         super().__init__(nama, power)
         
     def menyerang(self):
-        print ("mengeluarkan power dengan memukul")
+        return self.get_power()

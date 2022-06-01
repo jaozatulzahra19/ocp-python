@@ -3,11 +3,11 @@ from penembak import Penembak
 from pengendara import Pengendara 
 
 
-pemukul = Pemukul()
-print(pemukul())
+karakter1 = Penembak("oja", 40)
+print(karakter1.menyerang(),",menembak")
 
-penembak = Penembak()
-print(Penembak())
+karakter2 = Pemukul("Mila", 50)
+print(karakter2.menyerang(), ",memukul")
 
-pengendara = (Pengendara)
-print(Pengendara())
+karakter3 = Pengendara("milja", 90)
+print(karakter3.menyerang(), ",menabrak")
