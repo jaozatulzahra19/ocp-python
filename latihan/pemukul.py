@@ -1,5 +1,4 @@
 from karakter import Karakter
-from penembak import Penembak
 
 class Pemukul(Karakter):
     def __init__(self, nama: str, power: int):
